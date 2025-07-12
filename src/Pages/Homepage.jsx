@@ -189,14 +189,14 @@ const HomePage = () => {
                 <button
                   onClick={() =>
                     window.open(
-                      "https://bookings.poshretreats.ca",
+                      " https://bookings.poshretreats.ca/book-online ",
                       "_self",
                       "noopener,noreferrer"
                     )
                   }
                   className="bg-white text-xs md:text-sm text-customGreen px-6 md:px-6 py-2.5 md:py-2.5 rounded-lg font-medium"
                 >
-                  Submit your Travel Request
+                 Book your Trip now!
                 </button>
 
                 {/* Arrows and Progress Bar */}

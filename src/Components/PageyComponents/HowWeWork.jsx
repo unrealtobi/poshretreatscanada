@@ -77,14 +77,14 @@ const HowWeWork = () => {
         <button
           onClick={() =>
             window.open(
-              "https://bookings.poshretreats.ca",
+              "https://app.tern.travel/public/forms/6OZArpyESYkxT9vf8rDf0g/responses/new",
               "_self",
               "noopener,noreferrer"
             )
           }
           className="mt-6 px-6 py-3 bg-white text-customGreen font-medium text-sm rounded-md shadow-md hover:shadow-lg hover:bg-gray-100 transition duration-300"
         >
-          Book a Trip
+          Submit your Trip Request
         </button>
       </div>
     </div>
