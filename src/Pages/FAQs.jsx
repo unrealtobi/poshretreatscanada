@@ -41,19 +41,19 @@ const FAQs = () => {
       id: 6,
       question: "Do you have an age limit for your group trips?",
       answer:
-        "Yes, our group trips are adults-only. We want to create a relaxed, mature environment where everyone can thoroughly enjoy the experience!",
+        "Yes, our group trips are adults only. We want to create a relaxed, mature environment where everyone can thoroughly enjoy the experience!",
     },
     {
       id: 7,
       question: "When will group trips be coming back?",
       answer:
-        "We're busy working behind the scenes to ensure everything is 100% compliant with the regulators, and we’re on track to launch our 2026 calendar mid-year 2025. We know it’s not the news you were hoping for, but trust us – we’ll be back bigger, better, and stronger than ever! Stay tuned for what’s to come.",
+        "We're busy working behind the scenes to ensure everything is 100% compliant with the regulators, and we’re on track to launch our 2026 calendar mid-year 2025. We know it’s not the news you were hoping for, but trust us, we’ll be back bigger, better, and stronger than ever! Stay tuned for what’s to come.",
     },
     {
       id: 8,
       question: "Do you charge for this service?",
       answer:
-        "Yes, we do charge for our custom trip-planning service. It’s £15 per adult and £5 per child. This covers the time and effort we put into crafting a trip just right for you!",
+        "Yes, we do charge for our custom trip-planning service. It’s $35 per adult and $5 per child. This covers the time and effort we put into crafting a trip just right for you!",
     },
     {
       id: 9,
