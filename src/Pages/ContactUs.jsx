@@ -330,10 +330,11 @@ const ContactUs = () => {
                 Speak to our friendly team.
               </p>
               <a
-                href="mailto:letstalk@poshretreats.co.uk"
+                href="mailto:letstalk@poshretreats.ca"
                 className="text-black underline font-roboto text-sm font-medium mt-2"
               >
-                letstalk@poshretreats.co.uk
+                letstalk@poshretreats.ca
+
               </a>
             </div>
 
@@ -347,7 +348,7 @@ const ContactUs = () => {
                 We’re here to help.
               </p>
               <p className="text-black font-roboto text-sm font-medium mt-2">
-                +44 (783) 829-8201
+               +1 437-238-7437
               </p>
             </div>
 

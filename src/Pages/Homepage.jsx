@@ -189,14 +189,14 @@ const HomePage = () => {
                 <button
                   onClick={() =>
                     window.open(
-                      "https://app.tern.travel/public/forms/6OZArpyESYkxT9vf8rDf0g/responses/new",
-                      "_blank",
+                      "https://bookings.poshretreats.ca",
+                      "_self",
                       "noopener,noreferrer"
                     )
                   }
-                  className="bg-white text-xs md:text-sm  text-customGreen px-6 md:px-6 py-2.5 md:py-2.5 rounded-lg font-medium"
+                  className="bg-white text-xs md:text-sm text-customGreen px-6 md:px-6 py-2.5 md:py-2.5 rounded-lg font-medium"
                 >
-                  Book a Trip
+                  Submit your Travel Request
                 </button>
 
                 {/* Arrows and Progress Bar */}
@@ -334,7 +334,9 @@ const HomePage = () => {
             >
               www.atol.org.uk/ATOLCertificate
             </a> */}
-            We are a Member of ABTA which means you have the benefit of ABTA’s assistance and Code of Conduct. All the package and Flight-Plus holidays we sell are covered by a scheme protecting your money if the supplier fails. Other services such as hotels or flights on their own may not be protected and you should ask us what protection is available.
+            Posh Retreats is proudly affiliated with TravelOnly Inc., one of
+            Canada’s leading travel agencies with over 45 years of experience
+            and industry leadership
           </p>
 
           <a

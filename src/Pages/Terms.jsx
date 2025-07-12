@@ -6,175 +6,246 @@ const Terms = () => {
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-5xl font-raleway font-bold text-gray-900">
-          Terms & Conditions
+          Terms and Conditions
         </h1>
         <p className="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mt-4">
-          Welcome to Posh Retreats Ltd’s Terms and Conditions. Please read these
-          carefully as they outline the terms under which we provide our travel
+          Welcome to Posh Retreats’ Terms and Conditions. Please read these
+          carefully, as they outline the terms under which we provide our travel
           services. By booking with us, you agree to these terms.
         </p>
       </div>
 
-      {/* General Information */}
-      <div className=" p-6 md:p-10 rounded-lg ">
+      {/* 1. General Information */}
+      <div className="p-6 md:p-10 rounded-lg">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
           1. General Information
         </h2>
 
         <p className="text-gray-700 text-sm md:text-base mt-4">
-          1.1 Posh Retreats Ltd is a trading name of Experience It Now Travel
-          and sells travel services on behalf of Hays Travel Limited. We benefit
-          from Hays Travel’s membership of ABTA with membership number P7133.
+          1.1 Posh Retreats is a Canadian business providing travel services as
+          an independent travel advisor operating under the licence of
+          TravelOnly Inc., TICO Registration Number 4316071.
+        </p>
+        <p className="text-gray-700 text-sm md:text-base mt-2">
+          1.2 We are committed to delivering services in accordance with
+          Ontario’s Travel Industry Act, 2002, and related regulations, offering
+          you consumer protection, transparency, and accountability.
         </p>
 
-        {/* ABTA Protection */}
         <div className="mt-6">
           <h3 className="text-xl font-raleway font-semibold text-customGreen">
-            1.2 ABTA Protection
+            1.3 Travel Industry Council of Ontario (TICO) Protection
           </h3>
           <p className="text-gray-700 text-sm md:text-base mt-2">
-            Book with Confidence. We are Members of ABTA, meaning you will
-            benefit from ABTA’s assistance and Code of Conduct. All the packages
-            and Flight-Plus holidays we sell are covered by a scheme that
-            protects your money if the supplier fails. Other services, such as
-            hotels or flights alone, may not be protected, and you should ask us
-            what protection is available.
+            Posh Retreats, operating under TravelOnly Inc., is registered with
+            the Travel Industry Council of Ontario (TICO). This offers you
+            protection under the Ontario Travel Industry Compensation Fund,
+            which may provide compensation if travel services are not provided
+            due to insolvency of a registered travel supplier.
           </p>
           <p className="text-gray-700 text-sm md:text-base mt-2">
-            <strong>For further information:</strong>
+            <strong>TICO Contact Details:</strong>
             <br />
-            📍 <span className="font-medium">Address:</span> 30 Park Street,
-            London SE1 9EQ <br />
-            📞 <span className="font-medium">Phone:</span> 020 3117 0500 <br />
+            📍 <span className="font-medium">Address:</span> 4010 Midland
+            Avenue, Suite 220, Toronto, ON M1V 5K4
+            <br />
+            📞 <span className="font-medium">Phone:</span> 1-888-451-TICO (8426)
+            <br />
             🌐 <span className="font-medium">Website:</span>{" "}
             <a
-              href="https://www.abta.com"
+              href="https://www.tico.ca"
               target="_blank"
               rel="noopener noreferrer"
               className="text-customGreen underline"
             >
-              www.abta.com
+              www.tico.ca
             </a>
-          </p>
-        </div>
-
-        {/* ATOL Protection */}
-        <div className="mt-6">
-          <h3 className="text-xl font-raleway font-semibold text-customGreen">
-            1.3 ATOL Protection
-          </h3>
-          <p className="text-gray-700 text-sm md:text-base mt-2">
-            Many of the flights and flight-inclusive holidays on this website
-            are financially protected by the ATOL scheme. However, ATOL
-            protection does not apply to all holiday and travel services listed.
-            Please confirm the applicable protection with us at the time of
-            booking.
-          </p>
-          <p className="text-gray-700 text-sm md:text-base mt-2">
-            🔗{" "}
-            <a
-              href="https://www.caa.co.uk/atol-protection/check-an-atol/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-customGreen underline"
-            >
-              Learn More about ATOL
-            </a>
-          </p>
-        </div>
-
-        {/* ATOL Number */}
-        <div className="mt-6">
-          <h3 className="text-xl font-raleway font-semibold text-customGreen">
-            1.4 Our ATOL Number
-          </h3>
-          <p className="text-gray-700 text-sm md:text-base mt-2">
-            <strong>ATOL Number: 5534</strong> <br />
-            Verify our ATOL membership via the CAA Check an ATOL page.
           </p>
         </div>
       </div>
 
-      {/* Booking and Payment */}
-      <div className=" p-6 md:p-10 rounded-lg  mt-8">
+      {/* 2. Booking and Payment */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
           2. Booking and Payment
         </h2>
 
-        <h3 className="text-xl font-raleway font-semibold text-customGreen mt-4">
-          2.1 Booking:
-        </h3>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          Depending on the specific travel service, we require a deposit or full
-          payment to confirm your booking.
-        </p>
-        <h3 className="text-xl font-raleway font-semibold text-customGreen mt-2 ">
-          2.2 Payment by Instalment:
-        </h3>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          Posh Retreats Ltd provides a payment-by-instalment option where
-          allowed by the supplier. If you choose this option, you agree to a
-          direct debit arrangement and take full responsibility for completing
-          payments.
-        </p>
-        <h3 className="text-xl font-raleway font-semibold text-customGreen mt-2">
-          2.3 Payment Terms:
-        </h3>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          Full payment must be completed at least 6 to 8 weeks before departure,
-          depending on the agreement made during booking.
-        </p>
+        <div className="mt-4">
+          <h3 className="text-xl font-raleway font-semibold text-customGreen">
+            2.1 Booking
+          </h3>
+          <p className="text-gray-700 text-sm md:text-base mt-2">
+            A deposit or full payment is required to confirm your booking,
+            depending on the type of travel service selected and the supplier’s
+            requirements.
+          </p>
+        </div>
+
+        <div className="mt-4">
+          <h3 className="text-xl font-raleway font-semibold text-customGreen">
+            2.2 Payment by Instalment
+          </h3>
+          <p className="text-gray-700 text-sm md:text-base mt-2">
+            We offer a payment-by-instalment option through Uplift (
+            <a
+              href="https://www.uplift.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-customGreen underline"
+            >
+              www.uplift.com
+            </a>
+            ), a third-party financing provider. By selecting this option, you
+            agree to Uplift’s terms and conditions. Your payment arrangement
+            will be subject to their approval, credit checks, and loan servicing
+            terms. You are fully responsible for repaying the loan as agreed
+            with Uplift. Posh Retreats is not a lender and assumes no
+            responsibility for any financing terms or outcomes.
+          </p>
+        </div>
+
+        <div className="mt-4">
+          <h3 className="text-xl font-raleway font-semibold text-customGreen">
+            2.3 Payment Terms
+          </h3>
+          <p className="text-gray-700 text-sm md:text-base mt-2">
+            Unless otherwise agreed at the time of booking, full payment must be
+            received as stated during booking. Failure to pay by the deadline
+            may result in cancellation and forfeiture of any payments made.
+          </p>
+        </div>
       </div>
 
-      {/* Changes and Cancellations */}
-      <div className=" p-6 md:p-10 rounded-lg mt-8">
+      {/* 3. Changes and Cancellations */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
           3. Changes and Cancellations
         </h2>
-        <h3 className="text-xl font-raleway font-semibold text-customGreen mt-4">
-          3.1 Changes:
-        </h3>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          Changes to your booking may be subject to fees imposed by suppliers or
-          us.
-        </p>
-        <h3 className="text-xl font-raleway font-semibold text-customGreen mt-4">
-          3.1 Cancellations:
-        </h3>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          Cancellations will be subject to the terms outlined by the relevant
-          travel supplier, which may include non-refundable deposits.
-        </p>
+
+        <div className="mt-4">
+          <h3 className="text-xl font-raleway font-semibold text-customGreen">
+            3.1 Changes
+          </h3>
+          <p className="text-gray-700 text-sm md:text-base mt-2">
+            Any requested changes to your booking may be subject to fees set by
+            the supplier. We will advise you of all costs before confirming
+            modifications.
+          </p>
+        </div>
+
+        <div className="mt-4">
+          <h3 className="text-xl font-raleway font-semibold text-customGreen">
+            3.2 Cancellations
+          </h3>
+          <p className="text-gray-700 text-sm md:text-base mt-2">
+            Cancellations are subject to the travel supplier’s terms and
+            conditions, which may include non-refundable deposits or
+            cancellation fees. Please review supplier terms carefully.
+          </p>
+        </div>
       </div>
 
-      {/* Responsibilities */}
-      <div className=" p-6 md:p-10 rounded-lg mt-8">
+      {/* 4. Your Responsibilities */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
           4. Your Responsibilities
         </h2>
-        <h3 className="text-xl font-raleway font-semibold text-customGreen mt-4">
-          4.1 Accuracy:
-        </h3>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          It is your responsibility to ensure the accuracy of all information
-          provided during booking.
-        </p>
-        <h3 className="text-xl font-raleway font-semibold text-customGreen mt-4">
-          4.2 Travel Documents:
-        </h3>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          Passports, visas, and travel insurance are mandatory.
-        </p>
+
+        <div className="mt-4">
+          <h3 className="text-xl font-raleway font-semibold text-customGreen">
+            4.1 Accuracy
+          </h3>
+          <p className="text-gray-700 text-sm md:text-base mt-2">
+            You are responsible for ensuring the accuracy of all personal and
+            travel information provided during the booking process.
+          </p>
+        </div>
+
+        <div className="mt-4">
+          <h3 className="text-xl font-raleway font-semibold text-customGreen">
+            4.2 Travel Documents
+          </h3>
+          <p className="text-gray-700 text-sm md:text-base mt-2">
+            You are responsible for securing valid travel documents, including
+            passports and visas, where required. Travel insurance is strongly
+            recommended and will be offered for all bookings; it remains your
+            responsibility to obtain it.
+          </p>
+        </div>
       </div>
 
-      {/* Complaints */}
-      <div className="p-6 md:p-10 rounded-lg  mt-8">
+      {/* 5. Complaints */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
           5. Complaints
         </h2>
         <p className="text-gray-700 text-sm md:text-base mt-4">
-          If you have issues during your trip, contact us immediately. If
-          unresolved, you may refer it to ABTA for arbitration.
+          5.1 If you encounter any issues during your travel experience, please
+          contact us immediately so we can assist in resolving the matter.
+        </p>
+        <p className="text-gray-700 text-sm md:text-base mt-2">
+          5.2 If the issue remains unresolved and your booking involved a
+          TICO-registered supplier, you may file a formal complaint with TICO.
+          For full information, visit{" "}
+          <a
+            href="https://www.tico.ca"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-customGreen underline"
+          >
+            www.tico.ca
+          </a>
+          .
+        </p>
+      </div>
+
+      {/* 6. Financial Protection */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          6. Financial Protection
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          6.1 All eligible travel bookings made through Posh Retreats, under
+          TravelOnly Inc., may be protected by the Ontario Travel Industry
+          Compensation Fund, subject to its terms and eligibility criteria.
+        </p>
+        <p className="text-gray-700 text-sm md:text-base mt-2">
+          6.2 Learn more at:{" "}
+          <a
+            href="https://www.tico.ca/consumer-protection/travel-compensation-fund.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-customGreen underline"
+          >
+            https://www.tico.ca/consumer-protection/travel-compensation-fund.html
+          </a>
+        </p>
+      </div>
+
+      {/* 7. Liability */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          7. Liability
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          7.1 Posh Retreats acts solely as an agent for third-party travel
+          suppliers. We are not responsible for the performance, quality, or
+          outcomes of services provided by those suppliers. Our liability is
+          limited to the proper arrangement and documentation of services as
+          confirmed at booking.
+        </p>
+      </div>
+
+      {/* 8. Governing Law */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          8. Governing Law
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          8.1 These Terms and Conditions shall be governed by and interpreted in
+          accordance with the laws of the Province of Ontario and the applicable
+          federal laws of Canada. Any disputes will be subject to the exclusive
+          jurisdiction of Ontario courts.
         </p>
       </div>
 
@@ -182,8 +253,12 @@ const Terms = () => {
       <div className="text-center mt-12">
         <p className="text-gray-600 text-sm md:text-base">
           If you have any questions about these terms, please contact us
-          directly. <br />
-          <strong>Posh Retreats Ltd - ABTA Member | ATOL Bonded (5534)</strong>
+          directly.
+          <br />
+          <strong>
+            Thank you for choosing Posh Retreats, operating under TravelOnly
+            Inc. – TICO Registration No. 4316071
+          </strong>
         </p>
       </div>
     </div>

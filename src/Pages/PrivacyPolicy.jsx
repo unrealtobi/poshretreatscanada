@@ -9,25 +9,27 @@ const PrivacyPolicy = () => {
           Privacy Policy
         </h1>
         <p className="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mt-4">
-          Effective Date: 30/01/2025 <br />
+          Effective Date: 10/07/2025 <br />
+          Last Updated: 09/07/2025
         </p>
       </div>
 
-      {/* Introduction */}
+      {/* 1. Introduction */}
       <div className="p-6 md:p-10 rounded-lg">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
           1. Introduction
         </h2>
         <p className="text-gray-700 text-sm md:text-base mt-4">
-          At Posh Retreats Ltd, we are committed to protecting and respecting
-          your privacy. This Privacy Policy explains how we collect, use, store,
-          and safeguard your personal information when you use our website and
-          services. By accessing or using our website, you agree to the
-          collection and use of your information in accordance with this policy.
+          At Posh Retreats, your privacy is a top priority for us. This Privacy
+          Policy outlines how we collect, use, disclose, and safeguard your
+          personal information in accordance with applicable Canadian privacy
+          laws, including the Personal Information Protection and Electronic
+          Documents Act (PIPEDA). By accessing or using our website or services,
+          you agree to the terms of this Privacy Policy.
         </p>
       </div>
 
-      {/* Information We Collect */}
+      {/* 2. Information We Collect */}
       <div className="p-6 md:p-10 rounded-lg mt-8">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
           2. Information We Collect
@@ -38,24 +40,24 @@ const PrivacyPolicy = () => {
         </h3>
         <ul className="text-gray-700 text-sm md:text-base mt-2 list-disc pl-6">
           <li>
-            <strong>Personal Information:</strong> Name, email, phone number,
-            date of birth, postal address.
+            <strong>Contact Details:</strong> Name, email address, phone number,
+            and mailing address.
           </li>
           <li>
-            <strong>Payment Information:</strong> Securely processed
-            credit/debit card details.
+            <strong>Identification Information:</strong> Date of birth, passport
+            number, visa details (when required for travel arrangements).
           </li>
           <li>
-            <strong>Travel Preferences:</strong> Destination, accommodation,
-            additional services.
+            <strong>Payment Information:</strong> Credit/debit card details
+            (processed securely via third-party payment providers).
           </li>
           <li>
-            <strong>Identification Documents:</strong> Passport or visa details
-            for travel bookings.
+            <strong>Travel Preferences:</strong> Destination interests,
+            accommodation needs, and special requests.
           </li>
           <li>
-            <strong>Communication Data:</strong> Correspondence via email, chat,
-            or social media.
+            <strong>Communications:</strong> Correspondence with us via email,
+            website forms, chat, or social media.
           </li>
         </ul>
 
@@ -64,128 +66,201 @@ const PrivacyPolicy = () => {
         </h3>
         <ul className="text-gray-700 text-sm md:text-base mt-2 list-disc pl-6">
           <li>
-            <strong>Cookies & Tracking:</strong> Used to enhance user experience
-            and track site activity.
+            <strong>Cookies & Tracking Data:</strong> To enhance your
+            experience, personalize content, and analyze website traffic.
           </li>
           <li>
-            <strong>Device & Log Data:</strong> IP address, browser type, time
-            zone, visited pages.
+            <strong>Technical Information:</strong> IP address, browser type,
+            operating system, device type, and referring URLs.
           </li>
         </ul>
       </div>
 
-      {/* How We Use Your Information */}
+      {/* 3. How We Use Your Information */}
       <div className="p-6 md:p-10 rounded-lg mt-8">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
           3. How We Use Your Information
         </h2>
         <p className="text-gray-700 text-sm md:text-base mt-4">
-          We process your data to:
+          We use your personal information to:
         </p>
         <ul className="text-gray-700 text-sm md:text-base mt-2 list-disc pl-6">
-          <li>Fulfil and manage travel bookings.</li>
-          <li>Provide customer support and trip updates.</li>
-          <li>Send promotional offers and newsletters (with consent).</li>
-          <li>Improve our website and services.</li>
-          <li>Comply with legal requirements and fraud prevention.</li>
+          <li>Book and manage travel services on your behalf.</li>
+          <li>Communicate with you regarding your bookings or inquiries.</li>
+          <li>Provide customer service and travel updates.</li>
+          <li>Send promotional offers or newsletters (with your consent).</li>
+          <li>Improve our services and website experience.</li>
+          <li>
+            Comply with legal and regulatory obligations, including fraud
+            prevention and reporting.
+          </li>
         </ul>
       </div>
 
-      {/* Third-Party Processing */}
+      {/* 4. Disclosure to Third Parties */}
       <div className="p-6 md:p-10 rounded-lg mt-8">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
-          4. Processing Data with Third-Party Suppliers
+          4. Disclosure to Third Parties
         </h2>
         <p className="text-gray-700 text-sm md:text-base mt-4">
-          When booking through Posh Retreats Ltd, your data may be processed on
-          supplier platforms (airlines, hotels, tour operators, etc.).
-          <br />
-          <br />
-          Each supplier has its own privacy policy, and once your data is
-          processed on their platform, it falls under their terms.
+          We only share your personal information where necessary to fulfill
+          travel services or comply with legal requirements. This may include:
         </p>
-      </div>
-
-      {/* Payment & Financial Protection */}
-      <div className="p-6 md:p-10 rounded-lg mt-8">
-        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
-          5. Payment & Financial Protection
-        </h2>
-        <p className="text-gray-700 text-sm md:text-base mt-4">
-          Posh Retreats Ltd offers payment in instalments, where permitted by
-          the supplier. Failure to complete payments at least 6-8 weeks before
-          departure may result in cancellation and legal action.
-        </p>
-        <h3 className="text-xl font-raleway font-semibold text-customGreen mt-4">
-          ABTA & ATOL Protection
-        </h3>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          As an ABTA Member, we adhere to ABTA’s Code of Conduct, ensuring
-          financial protection for package and Flight-Plus holidays.
-        </p>
-      </div>
-
-      {/* Your Rights */}
-      <div className="p-6 md:p-10 rounded-lg mt-8">
-        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
-          6. Your Rights
-        </h2>
         <ul className="text-gray-700 text-sm md:text-base mt-2 list-disc pl-6">
-          <li>Access, correct, or delete personal data.</li>
-          <li>Withdraw consent for marketing.</li>
-          <li>Request a copy of data in a portable format.</li>
+          <li>
+            <strong>Travel Suppliers:</strong> Airlines, hotels, tour operators,
+            and other providers involved in your travel itinerary.
+          </li>
+          <li>
+            <strong>Payment Providers:</strong> To securely process your
+            transactions.
+          </li>
+          <li>
+            <strong>Government and Regulatory Authorities:</strong> Where
+            required by law or for fraud detection and prevention.
+          </li>
         </ul>
         <p className="text-gray-700 text-sm md:text-base mt-4">
-          Contact us at{" "}
+          Each third-party travel provider operates under their own privacy
+          policy. We encourage you to review their policies before proceeding
+          with bookings.
+        </p>
+      </div>
+
+      {/* 5. Payments & Financing */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          5. Payments & Financing
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          Posh Retreats offers a payment-in-instalment option via{" "}
           <a
-            href="mailto:letstalk@poshretreats.co.uk"
+            href="https://www.uplift.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-customGreen underline"
           >
-            letstalk@poshretreats.co.uk
-          </a>{" "}
-          to exercise your rights.
+            Uplift
+          </a>
+          . When you choose this option, you will be redirected to Uplift and
+          agree to their financing terms. Failure to complete payment as agreed
+          may result in cancellation of your booking, and steps may be taken to
+          recover the outstanding balance.
         </p>
       </div>
 
-      {/* Security & Retention */}
+      {/* 6. TICO Protection */}
       <div className="p-6 md:p-10 rounded-lg mt-8">
         <h2 className="text-2xl font-raleway font-semibold text-gray-900">
-          7. Data Security & Retention
+          6. TICO Protection
         </h2>
         <p className="text-gray-700 text-sm md:text-base mt-4">
-          We implement strict security measures to protect your data. However,
-          no system is 100% secure.
-        </p>
-        <p className="text-gray-700 text-sm md:text-base mt-2">
-          Booking details may be kept for up to 7 years for compliance.
-        </p>
-      </div>
-
-      {/* Cookies Policy */}
-      <div className="p-6 md:p-10 rounded-lg mt-8">
-        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
-          8. Cookies Policy
-        </h2>
-        <p className="text-gray-700 text-sm md:text-base mt-4">
-          We use cookies to enhance user experience. You can manage cookie
-          settings in your browser.
-        </p>
-      </div>
-
-      {/* Contact Information */}
-      <div className="p-6 md:p-10 rounded-lg mt-8">
-        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
-          9. Contact Information
-        </h2>
-        <p className="text-gray-700 text-sm md:text-base mt-4">
-          📍 128 City Road, London, EC1V 2NX <br />
-          📞 +44 7838 298201 <br />
-          📧{" "}
+          As a registered travel seller operating under TravelOnly Inc. (TICO
+          Reg. No. 4316071), your eligible bookings may be protected by the
+          Ontario Travel Industry Compensation Fund. Learn more at{" "}
           <a
-            href="mailto:letstalk@poshretreats.co.uk"
+            href="https://www.tico.ca"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-customGreen underline"
           >
-            letstalk@poshretreats.co.uk
+            www.tico.ca
+          </a>
+          .
+        </p>
+      </div>
+
+      {/* 7. Your Privacy Rights */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          7. Your Privacy Rights
+        </h2>
+        <ul className="text-gray-700 text-sm md:text-base mt-2 list-disc pl-6">
+          <li>Request access to your personal information.</li>
+          <li>Correct inaccuracies in your data.</li>
+          <li>Withdraw consent to marketing communications.</li>
+          <li>
+            Request deletion of your information (subject to legal limits).
+          </li>
+        </ul>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          To exercise any of these rights, please contact us at{" "}
+          <a
+            href="mailto:letstalk@poshretreats.ca"
+            className="text-customGreen underline"
+          >
+            letstalk@poshretreats.ca
+          </a>
+          .
+        </p>
+      </div>
+
+      {/* 8. Data Security */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          8. Data Security
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          We implement physical, electronic, and administrative safeguards to
+          protect your personal data against loss, theft, unauthorized access,
+          or disclosure. While we take reasonable precautions, no internet-based
+          service is completely secure.
+        </p>
+      </div>
+
+      {/* 9. Data Retention */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          9. Data Retention
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          We retain your personal information only as long as necessary to
+          fulfill the purposes outlined in this policy or to meet legal
+          obligations. Booking and financial records may be retained for up to 7
+          years for audit and compliance purposes.
+        </p>
+      </div>
+
+      {/* 10. Cookies Policy */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          10. Cookies Policy
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          Our website uses cookies to enhance your browsing experience and
+          improve functionality. You can control or disable cookies through your
+          browser settings. Continued use of our website indicates your
+          acceptance of this policy.
+        </p>
+      </div>
+
+      {/* 11. Changes to This Policy */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          11. Changes to This Policy
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          We reserve the right to update this Privacy Policy from time to time.
+          Updates will be posted on this page with a revised effective date.
+          Please review it periodically for changes.
+        </p>
+      </div>
+
+      {/* 12. Contact Information */}
+      <div className="p-6 md:p-10 rounded-lg mt-8">
+        <h2 className="text-2xl font-raleway font-semibold text-gray-900">
+          12. Contact Information
+        </h2>
+        <p className="text-gray-700 text-sm md:text-base mt-4">
+          Posh Retreats <br />
+          Attn: Bukie Olagbegi <br />
+          Phone: +1 437-238-7437 <br />
+          Email:{" "}
+          <a
+            href="mailto:letstalk@poshretreats.ca"
+            className="text-customGreen underline"
+          >
+            letstalk@poshretreats.ca
           </a>
         </p>
       </div>

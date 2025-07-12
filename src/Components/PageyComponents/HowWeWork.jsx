@@ -77,8 +77,8 @@ const HowWeWork = () => {
         <button
           onClick={() =>
             window.open(
-              "https://app.tern.travel/public/forms/6OZArpyESYkxT9vf8rDf0g/responses/new",
-              "_blank",
+              "https://bookings.poshretreats.ca",
+              "_self",
               "noopener,noreferrer"
             )
           }

@@ -17,12 +17,11 @@ const Footer = () => {
         <h2 className="text-3xl md:text-4xl sm:text-4xl mt-16 px-20 sm:px-60 md:px-0 font-raleway font-semibold">
           Start Your Journey with Us
         </h2>
-        {/* <p className="text-center px-8 md:px-0 text-gray-200 text-sm md:text-sm mt-2">
+        <p className="text-center px-8 md:px-0 text-gray-200 text-sm md:text-sm hidden mt-2">
           Have questions or ready to book? Reach out to plan your next
-          unforgettable adventure. Posh Retreats is a member of Experience It
-          Now Travel who are an Accredited Body Member of Hays Travel
-          Limited, ATOL 5534
-        </p> */}
+          unforgettable adventure. Posh Retreats is proudly affiliated with
+          TravelOnly Inc.,
+        </p>
 
         {/* Button */}
         {/* <button
@@ -44,57 +43,44 @@ const Footer = () => {
         </h1>
 
         {/* Social Icons */}
-        <div className="md:absolute md:bottom-0 bottom-6 absolute flex  items-center gap-4">
+        <div className="md:absolute md:bottom-0 bottom-6 absolute flex items-center gap-4">
           <a
-            href="https://www.tiktok.com/@posh.retreats?_t=8jfaklTKkdc&_r=1"
+            href="https://www.tiktok.com/@poshretreatsna"
             aria-label="TikTok"
             className="text-white text-xl"
           >
             <FaTiktok />
           </a>
           <a
-            href="https://www.instagram.com/poshretreats?igsh=MWx4YW1tdHJhM2F2cA%3D%3D&utm_source=qr"
+            href="https://www.instagram.com/poshretreats_na?igsh=cGt3dHpoYXUxZGF2&utm_source=qr"
             aria-label="Instagram"
             className="text-white text-xl"
           >
             <FaInstagram />
           </a>
           <a
-            href="https://x.com/posh_retreats?s=21&t=X9eCifkrm07k0kzt6mXLUA"
+            href="https://x.com/posh_retreats_a?s=21&t=X9eCifkrm07k0kzt6mXLUA"
             aria-label="X"
             className="text-white text-xl"
           >
             <FaXTwitter />
           </a>
           <a
-            href="https://www.facebook.com/poshretreats"
+            href="https://www.facebook.com/share/g/1BioGjn7PZ/?mibextid=wwXIfr"
             aria-label="Facebook"
             className="text-white text-xl"
           >
             <RiFacebookFill />
           </a>
-          <a
-            href="https://chat.whatsapp.com/L6CSZncHQeZ5qo6FTp3r3l"
-            aria-label="WhatsApp"
-            className="text-white text-xl"
-          >
-            <FaWhatsapp />
-          </a>
-          <a
-            href="https://t.me/+4oQ_bukN3r8wNjRk"
-            aria-label="Telegram"
-            className="text-white text-xl"
-          >
-            <FaTelegram />
-          </a>
         </div>
-        <p className=" absolute md:flex text-center px-8 md:px-0 text-gray-200 text-sm md:text-sm sm:bottom-36  md:bottom-24 bottom-28 font-roboto">
+
+        <p className=" absolute md:flex text-center px-8 md:px-0 text-gray-200 text-sm md:text-sm sm:bottom-36  md:bottom-24 bottom-24 font-roboto">
           Have questions or ready to book? Reach out to plan your next
           unforgettable adventure.
-          <br /> Posh Retreats is a member of Experience It Now Travel who are
-          an Accredited Body Member of Hays Travel Limited, ATOL 5534
+          <br />  Posh Retreats is proudly affiliated with
+          TravelOnly Inc., 
         </p>
-        <div className="absolute flex  md:bottom-10  bottom-16  gap-x-6">
+        {/* <div className="absolute flex  md:bottom-10  bottom-16  gap-x-6">
           <img
             src="/abta.png"
             alt="ABTA Travel Logo"
@@ -119,7 +105,7 @@ const Footer = () => {
               )
             }
           />
-        </div>
+        </div> */}
 
         <div className="mt-7 text-sm md:translate-y-44 translate-y-36 sm:translate-y-28 text-gray-300">
           <a

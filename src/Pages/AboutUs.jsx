@@ -162,65 +162,45 @@ const AboutUs = () => {
         {/* Right Section - Text + Wider Image */}
         <div className="flex flex-col space-y-8">
           {/* Text Content */}
-          <div className="space-y-4 text-gray-800">
-            <h2 className="text-2xl md:text-3xl font-raleway font-semibold">
-              Unlock a World of Boundless Adventures
+          <div className="space-y-6 text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-bold font-raleway">
+              Let’s Explore the World, Together
             </h2>
-            <p className="text-sm font-roboto md:text-base">
-              Posh Retreats emerged from a profound passion for exploring the
-              world, transcending the barriers of passport privilege. Our
-              philosophy rejects the limitations of waiting for travel
-              companions and instead champions the spirit of action. We warmly
-              welcome travelers who, like us, venture to diverse global
-              destinations despite the unique challenges posed by certain
-              passport holders.
+            <p className="text-sm md:text-base font-roboto">
+              Posh Retreats is proudly affiliated with TravelOnly Inc., one of
+              Canada’s leading travel agencies with over 45 years of experience
+              and industry leadership. TravelOnly’s exceptional reputation,
+              strong supplier relationships, and robust back-office support
+              enable us to provide a seamless, secure, and value-packed travel
+              planning experience.
             </p>
-            <p className="text-sm font-roboto md:text-base">
-              <span className="text-customGreen font-medium">
-                {" "}
-                Book with Confidence.{" "}
-              </span>
-              {/* We are members of ABTA, meaning you will benefit from ABTA’s
-              assistance and Code of Conduct. All the packages and Flight-Plus
-              holidays we sell are covered by a scheme that protects your money
-              if the supplier fails. Other services, such as hotels or flights
-              on their own, may not be protected, and you should ask us what
-              protection is available. Many of the flights and flight-inclusive
-              holidays on this website are financially protected by the ATOL
-              scheme. But ATOL protection does not apply to all holiday and
-              travel services listed on this website. Please ask us to confirm
-              what protection may apply to your booking. If you do not receive
-              an ATOL Certificate then the booking will not be ATOL protected.
-              If you do receive an ATOL Certificate but all the parts of your
-              trip are not listed on it, those parts will not be ATOL protected.
-              Please see our booking conditions for information or for more
-              information about financial protection and the ATOL Certificate go
-              to:
-              <a
-                href="https://www.atol.org/about-atol/atol-certificates/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-customGreen underline hover:text-customGreen-dark transition"
-              >
-                www.atol.org.uk/ATOLCertificate
-              </a> */}
-              We are a Member of ABTA which means you have the benefit of ABTA’s
-              assistance and Code of Conduct. All the package and Flight-Plus
-              holidays we sell are covered by a scheme protecting your money if
-              the supplier fails. Other services such as hotels or flights on
-              their own may not be protected and you should ask us what
-              protection is available..
+            <h2 className="text-2xl md:text-3xl font-bold font-raleway">
+              Licensed and Trusted
+            </h2>
+            <p className="text-sm md:text-base font-roboto">
+              <span className="font-bold">TICO Registration Numbers:</span>
+              <br />
+              Bukola Olagbegi: TICO #T1597233
+              <br />
+              TravelOnly Inc.: TICO #4316071
+            </p>
+            <p className="text-sm md:text-base font-roboto">
+              As a registered travel seller in Ontario, we operate under full
+              compliance with the Travel Industry Council of Ontario (TICO)
+              regulations. This means your travel bookings are protected by
+              provincial consumer protection laws, giving you peace of mind from
+              the moment you book until you return home.
             </p>
           </div>
 
           {/* Wider Image */}
-          <div className="relative rounded-2xl md:block hidden overflow-hidden shadow-lg h-[250px]">
+          {/* <div className="relative rounded-2xl md:block hidden overflow-hidden shadow-lg h-[220px]">
             <img
               src="/morroco.webp" // Replace with your actual image path
               alt="Wider Image Description"
               className="object-cover w-full h-full"
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <section
@@ -293,42 +273,28 @@ const AboutUs = () => {
               Bukola Olagbegi – Founder of Posh Retreats
             </h2>
             <p className="text-sm md:text-base font-roboto">
-              With over 6 years of experience in the travel industry, I’ve been
-              busy turning wanderlust into reality! Along the way, I’ve teamed
-              up with top-notch tour operators and have built a passion for
-              curating travel experiences that are anything but ordinary.
+              With over six years of hands-on experience in the travel industry,
+              I’ve been passionately crafting unforgettable journeys and helping
+              travellers turn their wanderlust into reality. From luxury escapes
+              to culture-rich adventures, I specialize in curating bespoke
+              travel experiences that are anything but ordinary.
             </p>
             <p className="text-sm md:text-base font-roboto">
-              Posh Retreats came to life because of my love for exploring the
-              world and a desire to break down the barriers that passport
-              privilege can sometimes create. We’re all about building a
-              community that inspires people to travel the globe, no matter what
-              their passport looks like. We share tips on visa applications,
-              hunt down the best holiday deals, and say goodbye to the idea of
-              waiting for the perfect travel buddy.
+              Posh Retreats was born out of a deep love for travel and a
+              personal mission to make exploring the world more accessible,
+              especially for those navigating challenges like passport
+              privilege. Our goal is to empower travellers of all backgrounds by
+              offering transparent guidance on visa processes, sharing insider
+              travel tips, and creating a supportive community where
+              spontaneous, solo, or group adventures are always encouraged.
             </p>
             <p className="text-sm md:text-base font-roboto">
-              Our philosophy? Don’t wait around—take action, be spontaneous, and
-              go on that adventure now!
-            </p>
-            <p className="text-sm md:text-base font-roboto">
-              At Posh Retreats, we welcome adventurous souls who want to explore
-              diverse, exciting destinations without letting anything hold them
-              back. We create experiences that are rich in culture, super
-              relaxing, and set in luxurious accommodations to make every moment
-              unforgettable.
-            </p>
-            <p className="text-sm md:text-base font-roboto">
-              <span className="font-bold text-customGreen">
-                Oh, and we’re thrilled to confirm that Posh Retreats is a proud
-                member of Experience It Now Travel, an Accredited Body Member of
-                Hays Travel Limited, ATOL 5534.
-              </span>{" "}
-              So, your travels with us are in safe hands!
-            </p>
-            <p className="text-sm md:text-base font-roboto">
-              Ready to make your travel dreams come true? No matter where you’re
-              from, the world is waiting for you to explore it.
+              We believe in saying yes to new experiences, with no waiting and
+              no holding back. Whether you're planning your dream honeymoon or a
+              much-needed self-care escape, our trips are designed to immerse
+              you in culture, luxury, and ease. At Posh Retreats, every
+              itinerary is thoughtfully planned to help you reconnect, explore,
+              and unwind without compromise.
             </p>
           </div>
         </div>
@@ -347,10 +313,12 @@ const AboutUs = () => {
             About Us
           </h1>
           <p className="font-roboto text-sm mt-8 md:px-40 text-gray-700">
-            At Posh Retreats, we're dedicated to crafting extraordinary travel
-            experiences tailored to your dreams. With a blend of expertise,
-            passion, and personalized service, we turn wanderlust into reality,
-            one journey at a time
+            Whether you're a first-time traveller or a seasoned explorer, Posh
+            Retreats is here to help you craft meaningful, seamless, and safe
+            travel experiences. No matter your background or travel history, we
+            believe the world is meant for you to explore, and we’re here to
+            make it happen. Let’s connect and start planning your next
+            unforgettable journey.
           </p>
         </div>
 
